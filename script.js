@@ -46,7 +46,7 @@ if (submitBtn) {
     submitBtn.textContent = 'Sending...';
     submitBtn.disabled = true;
 
-    fetch('https://formspree.io/f/YOUR_FORM_ID', {
+    fetch('https://formspree.io/f/xeelwndo', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, email, message })
